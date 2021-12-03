@@ -87,8 +87,7 @@ pipeline {
                 input message: 'Deploy to Prod?'
             }            
         }
- 
-        
+         
         stage('Deploy Prod'){
             when {
                 branch 'master'
